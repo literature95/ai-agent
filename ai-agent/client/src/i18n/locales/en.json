@@ -1,0 +1,101 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "toggleTheme": "Toggle theme"
+  },
+  "sidebar": {
+    "providers": "Providers",
+    "chat": "Chat",
+    "settings": "Settings",
+    "brand": "AI Agent"
+  },
+  "header": {
+    "active": "Active:"
+  },
+  "providers": {
+    "title": "AI Providers",
+    "description": "Configure AI providers to connect to models. Supports OpenAI, Anthropic, and OpenAI-compatible APIs.",
+    "addProvider": "Add Provider",
+    "noProviders": "No providers configured",
+    "noProvidersDesc": "Add an AI provider to get started. You can configure OpenAI, Anthropic, or any OpenAI-compatible API.",
+    "active": "Active",
+    "activeProvider": "Active Provider",
+    "setActive": "Set Active",
+    "connected": "Connected",
+    "failed": "Failed",
+    "fetchModels": "Fetch models",
+    "testConnection": "Test connection",
+    "deleteConfirm": "Are you sure you want to delete",
+    "deleteWarning": "This action cannot be undone.",
+    "added": "Provider added",
+    "updated": "Provider updated",
+    "deleted": "Provider deleted",
+    "switched": "Switched to",
+    "modelsFound": "Found {{count}} models",
+    "fillFieldsFirst": "Please fill in Base URL and API Key first",
+    "deleteTitle": "Delete Provider",
+    "connectionFailed": "Connection failed",
+    "testFailed": "Test failed",
+    "saveFailed": "Failed to save",
+    "connectedWithLatency": "Connected — {{latency}}ms",
+    "failedWithError": "Failed: {{error}}"
+  },
+  "providerForm": {
+    "addTitle": "Add Provider",
+    "addDesc": "Configure a new AI provider to connect to.",
+    "editTitle": "Edit Provider",
+    "editDesc": "Update provider configuration.",
+    "name": "Provider Name",
+    "namePlaceholder": "My Provider",
+    "apiFormat": "API Format",
+    "apiKey": "API Key",
+    "baseUrl": "Base URL",
+    "baseUrlPlaceholder": "https://api.openai.com/v1",
+    "model": "Model",
+    "modelPlaceholder": "Model name (e.g. gpt-4o)",
+    "websiteUrl": "Website URL",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional notes...",
+    "loadPreset": "Load from preset...",
+    "addProvider": "Add Provider",
+    "saveChanges": "Save Changes",
+    "formats": {
+      "openai": "OpenAI",
+      "anthropic": "Anthropic",
+      "openaiCompatible": "OpenAI Compat"
+    },
+    "modelsFetchFailed": "Failed to fetch models"
+  },
+  "chat": {
+    "title": "Chat",
+    "newChat": "New chat",
+    "startConversation": "Start a conversation",
+    "startConversationDesc": "Type a message to begin chatting with the AI.",
+    "systemPrompt": "System Prompt",
+    "inputPlaceholder": "Type a message... (Enter to send, Shift+Enter for new line)",
+    "inputDisabled": "No active provider configured...",
+    "noProviderError": "Please configure and select an active provider first",
+    "chats": "Chats",
+    "noConversations": "No conversations yet"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "chinese": "中文",
+    "english": "English",
+    "about": "About",
+    "aboutText": "AI Agent v1.0.0 — Connect to AI models through multiple providers. Supports OpenAI, Anthropic, and OpenAI-compatible APIs with streaming responses."
+  }
+}
