@@ -14,7 +14,9 @@
       "Bash(npm run *)",
       "Bash(netstat -ano)",
       "PowerShell(Stop-Process *)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(git *)",
+      "Bash(taskkill //F //IM node.exe)"
     ]
   }
 }

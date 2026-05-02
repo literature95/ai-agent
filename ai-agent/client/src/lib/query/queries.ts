@@ -7,6 +7,7 @@ export function useProvidersQuery() {
   return useQuery({
     queryKey: ["providers"],
     queryFn: providersApi.getAll,
+    select: (data) => data.providers,
   });
 }
 
@@ -14,7 +15,7 @@ export function useActiveProviderQuery() {
   return useQuery({
     queryKey: ["providers"],
     queryFn: providersApi.getAll,
-    select: (providers) => providers.find((p) => p.isActive) || null,
+    select: (data) => data.providers.find((p) => p.isActive) || null,
   });
 }
 

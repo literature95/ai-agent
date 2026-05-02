@@ -2,8 +2,16 @@ import { apiFetch } from "./client";
 import type { Provider } from "@/types";
 import type { TestResult, FetchModelsResult } from "./types";
 
+export interface ProvidersResponse {
+  providers: Provider[];
+  currentProviderId: string;
+}
+
 export const providersApi = {
-  getAll: () => apiFetch<Provider[]>("/providers"),
+  getAll: async (): Promise<ProvidersResponse> => {
+    const res = await apiFetch<ProvidersResponse>("/providers");
+    return res;
+  },
 
   get: (id: string) => apiFetch<Provider>(`/providers/${id}`),
 
