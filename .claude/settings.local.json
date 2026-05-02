@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(npm install *)",
+      "Bash(npx tsx *)",
+      "Bash(curl -s http://localhost:3001/api/health)",
+      "Bash(npx tsc *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:3001/api/providers)",
+      "Bash(curl -s http://localhost:3001/api/settings)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl -s -X POST http://localhost:3001/api/providers -H 'Content-Type: application/json' -d '{\"name\":\"Test OpenAI\",\"apiKey\":\"sk-test\",\"baseUrl\":\"https://api.openai.com/v1\",\"apiFormat\":\"openai\",\"model\":\"gpt-4o\",\"isActive\":true}')",
+      "Bash(npm run *)",
+      "Bash(netstat -ano)",
+      "PowerShell(Stop-Process *)",
+      "Bash(curl *)",
+      "Bash(git *)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
